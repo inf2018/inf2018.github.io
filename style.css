@@ -1,8 +1,9 @@
+	
 	html, body{
 		overflow-x:hidden;
 	}
 	*{
-		padding:0; margin:0;
+		padding:0; margin:0; transition: all .2s;
 	}
 	img{
 		border:none;
@@ -233,10 +234,10 @@
 			width:100%;
 		}
 		.head-logo img{
-			width:460px; height:120px;
+			width:350px; height:120px;
 		}
 		.head-name h1{
-			text-align:center; font-size:20px;
+			text-align:center; font-size:15px;
 		}
 		.menu-main {
 			width:100%; 
@@ -247,22 +248,22 @@
 			width:100%; float:left; padding-top:10px; padding-bottom:10px; margin-bottom:5px; 
 		}
 		.photo1 img {
-			width:130px; 
+			width:100%;
 		}
 		.photo2 img {
-			width:130px; 
+			width:100%;
 		}
 		.photo3 img {
-			width:130px;
+			width:100%;
 		}
 		.photo1{
-			width:130px; overflow:hidden; margin-left:14px; margin-right:14px;
+			width:100px; overflow:hidden; margin-left:10px; margin-right:10px;
 		}
 		.photo2{
-			width:130px;overflow:hidden;margin-left:14px;
+			width:100px;overflow:hidden;margin-left:10px;
 		}
 		.photo3{
-			width:120px;overflow:hidden;
+			width:100px;overflow:hidden;
 		}
 		.copy {
 			font-size:8px;
@@ -283,10 +284,10 @@
 			width:100%; 
 		}
 		.wizytowka1 h4{
-			font-size:6px;
+			font-size:5px;
 		}
 		.wizytowka2 h4{
-			font-size:6px;
+			font-size:5px;
 		}
 		
 	}	
@@ -297,12 +298,12 @@
 			width:100%;
 		}
 		.head-logo img{
-			width:460px; height:120px;
+			width:200px; height:130px;
 		}
 		.head-name h1{
-			text-align:center; font-size:20px;
+			text-align:center; font-size:22px;
 		}
-		.menu-main {
+	/*	.menu-main {
 			width:100%; 
 		}
 		
@@ -320,16 +321,16 @@
 			width:130px;
 		}
 		.photo1{
-			width:130px; overflow:hidden; margin-left:14px; margin-right:14px;
+			width:120px; overflow:hidden; margin-left:14px; margin-right:14px;
 		}
 		.photo2{
-			width:130px;overflow:hidden;margin-left:14px;
+			width:120px;overflow:hidden;margin-left:14px;
 		}
 		.photo3{
 			width:120px;overflow:hidden;
 		}
 		.copy {
-			font-size:8px;
+			font-size:10px;
 		}
 		.content-wrapper{
 			margin-right:50px;  margin-bottom:10px; margin-bottom:-40px;
@@ -351,7 +352,7 @@
 		}
 		.wizytowka2 h4{
 			font-size:6px;
-		}
+		}*/
 		
 	}	
 		
