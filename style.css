@@ -40,11 +40,14 @@
 		
 
 /************************************************ MenuText ************************************************/
+		.menuw{
+			width:100%;  border-bottom:solid 1px black; border-top:solid 1px black; margin-bottom:10px; 
+		}
 		.menu-main{
-			width:935px; margin:0 auto; overflow:hidden; margin-bottom:10px; border-bottom:solid 1px black; border-top:solid 1px black;
+			width:70%; margin:0 auto; overflow:hidden;
 		}
 			.menu{
-				float:left; font-size:13px; 
+				  font-size:13px; 
 			}
 				.menu li{
 					float:left; 
@@ -182,6 +185,7 @@
 		.menu-main {
 			width:100%; 
 		}
+		
 	
 			.menu{
 				 font-size:8px; 
@@ -226,10 +230,13 @@
 			width:100%; margin-bottom:10px;
 		}
 		.articles{
-			font-size:10px; padding:2px;
+			font-size:6px; padding:3px; text-align:center;
 		}
 		.content-video{
-			width:100%; margin-bottom:10px;
+			width:80%; margin-bottom:10px; 
+		}
+		.content-video video{
+			width:100%; height:100%;
 		}
 		.content-students{
 			width:100%; 
@@ -303,10 +310,13 @@
 			width:100%; margin-bottom:10px;
 		}
 		.articles{
-			font-size:11px; padding:3px;
+			font-size:8px; padding:3px; text-align:center;
 		}
 		.content-video{
-			width:100%; margin-bottom:10px;
+			width:80%; margin-bottom:10px; 
+		}
+		.content-video video{
+			width:100%; height:100%;
 		}
 		.content-students{
 			width:100%; 
@@ -334,6 +344,9 @@
 		.head-name h1{
 			text-align:center; font-size:12px;
 		}
+		.menuw{
+			width:100%;
+		}
 		.menu-main {
 			width:100%; 
 		}
@@ -345,7 +358,7 @@
 					padding-right:11px;
 				}
 					.menu li a{
-						color:#373737; padding:2px 4px; 
+						color:#373737; padding:2px 4px; display:block;
 					}
 		
 		
@@ -380,10 +393,13 @@
 			width:100%; margin-bottom:10px;
 		}
 		.articles{
-			font-size:11px; padding:3px;
+			font-size:10px; padding:3px; text-align:center;
 		}
 		.content-video{
-			width:100%; margin-bottom:10px;
+			width:80%; margin-bottom:10px; 
+		}
+		.content-video video{
+			width:100%; height:100%;
 		}
 		.content-students{
 			width:100%; 
@@ -393,6 +409,261 @@
 		}
 		.wizytowka2 h4{
 			font-size:6px;
+		}
+		
+		
+	}	
+	@media(min-width:671px) and (max-width:768px){
+	
+		.head{
+			width:100%;
+		}
+		.head-logo{
+			margin-left:1%; margin-right:1%;
+		}
+		.head-logo img{
+			width:100%; height:100%;
+		}
+		.head-name h1{
+			text-align:center; font-size:14px;
+		}
+		.menuw{
+			width:100%;
+		}
+		.menu-main {
+			width:100%; 
+		}
+		.menuw{
+			width:100%;
+		}
+			.menu{
+				 font-size:8px; width:80%;
+			}
+					.menu li{
+					padding-right:11px;
+				}
+					.menu li a{
+						color:#373737; padding:2px 4px; display:block;
+					}
+		
+		
+		.aside1{
+			width:100%; float:left; padding-top:10px; padding-bottom:10px; margin-bottom:5px; 
+		}
+		.photo1 img {
+			width:100%;
+		}
+		.photo2 img {
+			width:100%;
+		}
+		.photo3 img {
+			width:100%;
+		}
+		.photo1{
+			width:30%;  
+		}
+		.photo2{
+			width:30%;
+		}
+		.photo3{
+			width:30%;
+		}
+		.copy {
+			font-size:6px;
+		}
+		.contentw{
+			margin-right:16%;  margin-bottom:-40px;
+		}
+		.content-intro{
+			width:100%; margin-bottom:10px;
+		}
+		.articles{
+			font-size:11px; padding:3px; text-align:center;
+		}
+		.content-video{
+			width:80%; margin-bottom:10px; 
+		}
+		.content-video video{
+			width:100%; height:100%;
+		}
+		.content-students{
+			width:100%; 
+		}
+		.wizytowka1 h4{
+			font-size:8px;
+		}
+		.wizytowka2 h4{
+			font-size:8px;
+		}
+		
+		
+	}	
+	@media(min-width:769px) and (max-width:992px){
+	
+		.head{
+			width:100%;
+		}
+		.head-logo{
+			margin-left:1%; margin-right:1%;
+		}
+		.head-logo img{
+			width:100%; height:100%;
+		}
+		.head-name h1{
+			text-align:center; font-size:16px;
+		}
+		.menuw{
+			width:100%;
+		}
+		.menu-main {
+			width:100%; 
+		}
+		.menuw{
+			width:100%;
+		}
+			.menu{
+				 font-size:8px; width:80%;
+			}
+					.menu li{
+					padding-right:11px;
+				}
+					.menu li a{
+						color:#373737; padding:2px 4px; display:block;
+					}
+		
+		
+		.aside1{
+			width:100%; float:left; padding-top:10px; padding-bottom:10px; margin-bottom:5px; 
+		}
+		.photo1 img {
+			width:100%;
+		}
+		.photo2 img {
+			width:100%;
+		}
+		.photo3 img {
+			width:100%;
+		}
+		.photo1{
+			width:30%;  
+		}
+		.photo2{
+			width:30%;
+		}
+		.photo3{
+			width:30%;
+		}
+		.copy {
+			font-size:7px;
+		}
+		.contentw{
+			margin-right:16%;  margin-bottom:-40px;
+		}
+		.content-intro{
+			width:100%; margin-bottom:10px;
+		}
+		.articles{
+			font-size:11px; padding:3px; text-align:center;
+		}
+		.content-video{
+			width:80%; margin-bottom:10px; 
+		}
+		.content-video video{
+			width:100%; height:100%;
+		}
+		.content-students{
+			width:100%; 
+		}
+		.wizytowka1 h4{
+			font-size:10px;
+		}
+		.wizytowka2 h4{
+			font-size:10px;
+		}
+		
+		
+	}	
+	@media all  and (min-width:993px){
+	
+		.head{
+			width:100%;
+		}
+		.head-logo{
+			margin-left:1%; margin-right:1%;
+		}
+		.head-logo img{
+			width:100%; height:100%;
+		}
+		.head-name h1{
+			text-align:center; font-size:14px;
+		}
+		.menuw{
+			width:100%;
+		}
+		.menu-main {
+			width:100%; 
+		}
+		.menuw{
+			width:100%;
+		}
+			.menu{
+				 font-size:8px; width:80%;
+			}
+					.menu li{
+					padding-right:11px;
+				}
+					.menu li a{
+						color:#373737; padding:2px 4px; display:block;
+					}
+		
+		
+		.aside1{
+			width:100%; float:left; padding-top:10px; padding-bottom:10px; margin-bottom:5px; 
+		}
+		.photo1 img {
+			width:100%;
+		}
+		.photo2 img {
+			width:100%;
+		}
+		.photo3 img {
+			width:100%;
+		}
+		.photo1{
+			width:30%;  
+		}
+		.photo2{
+			width:30%;
+		}
+		.photo3{
+			width:30%;
+		}
+		.copy {
+			font-size:6px;
+		}
+		.contentw{
+			margin-right:16%;  margin-bottom:-40px;
+		}
+		.content-intro{
+			width:100%; margin-bottom:10px;
+		}
+		.articles{
+			font-size:11px; padding:3px; text-align:center;
+		}
+		.content-video{
+			width:80%; margin-bottom:10px; 
+		}
+		.content-video video{
+			width:100%; height:100%;
+		}
+		.content-students{
+			width:100%; 
+		}
+		.wizytowka1 h4{
+			font-size:8px;
+		}
+		.wizytowka2 h4{
+			font-size:8px;
 		}
 		
 		
