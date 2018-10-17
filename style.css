@@ -595,19 +595,17 @@
 			width:100%; height:100%;
 		}
 		.head-name h1{
-			text-align:center; font-size:14px;
+			text-align:center; font-size:18px;
 		}
 		.menuw{
 			width:100%;
 		}
 		.menu-main {
-			width:100%; 
+			width:70%; 
 		}
-		.menuw{
-			width:100%;
-		}
+		
 			.menu{
-				 font-size:8px; width:80%;
+				 font-size:10px; 
 			}
 					.menu li{
 					padding-right:11px;
@@ -639,7 +637,7 @@
 			width:30%;
 		}
 		.copy {
-			font-size:6px;
+			font-size:7px;
 		}
 		.contentw{
 			margin-right:16%;  margin-bottom:-40px;
@@ -660,10 +658,10 @@
 			width:100%; 
 		}
 		.wizytowka1 h4{
-			font-size:8px;
+			font-size:10px;
 		}
 		.wizytowka2 h4{
-			font-size:8px;
+			font-size:10px;
 		}
 		
 		
