@@ -62,14 +62,17 @@
 /************************************************ CONTENT ************************************************/					
 					
 		.contentw{
-
+			margin-right:16%;  margin-bottom:-40px;
 		}
 		
 		.content-intro{
 			width:800px; margin-left:10%; background:#e6e6e6; height:100px; margin-bottom:30px;
 		}			
 		.content-video{
-			margin-left:20%; margin-bottom:30px; border:solid 1px red; width:700px;
+		 width:80%;	margin-left:20%; margin-bottom:30px; border:solid 1px red;
+		}
+		.content-video video{
+			width:100%; height:100%;
 		}
 		
 		.content-students{
@@ -583,7 +586,7 @@
 		
 		
 	}	
-	@media all  and (min-width:993px){
+	@media (min-width:993px){
 	
 		.head{
 			width:100%;
