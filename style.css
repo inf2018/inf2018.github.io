@@ -26,34 +26,34 @@
 		width:100%; 
 	}
 		.head{
-			width:100%;  
+			width:100%;  margin-bottom:10px;
 			}
 		.head-logo{
 			 margin-top:5px;  margin-left:5px; margin-right:5px;
 		}	
 		.head-logo img {
-			border: solid 1px black; width:100%; height:250px;
+			border: solid 1px black; width:100%; height:150px;
 		}
 		.head-name h1{
-			width:100%; text-align: center; margin-bottom:10px;
+			position:absolute; right:0; margin-right:5%; font-size:25px; margin-top:30px;
 		}
 		
 
 /************************************************ MenuText ************************************************/
 		.menuw{
-			width:100%;  border-bottom:solid 1px black; border-top:solid 1px black; margin-bottom:10px; 
+			width:100%;  border-bottom:solid 1px black; border-top:solid 1px black; margin-bottom:20px;
 		}
 		.menu-main{
-			width:990px; margin:0 auto; overflow:hidden;
+			width:100%; margin:0 auto; overflow:hidden;
 		}
 			.menu{
-				  font-size:13px; 
+				  font-size:16px; font-weight: bold;
 			}
 				.menu li{
-					float:left; 
+					float:left; width:100%;
 				}
 					.menu li a{
-						color:#373737; padding:7px 15px; display:block;
+						color:#373737; padding:7px 15px; display:block; border:solid 1px; text-align:center;
 					}
 						.menu a:hover{
 							margin-top:2px; 
@@ -62,55 +62,52 @@
 /************************************************ CONTENT ************************************************/					
 					
 		.contentw{
-			margin-right:16%;  margin-bottom:-40px;
+			 margin-right:5px; margin-left:5px; 
 		}
 		
 		.content-intro{
-			width:800px; margin-left:10%; background:#e6e6e6; height:100px; margin-bottom:30px;
-		}			
+			 background:#e6e6e6; height:auto; margin-bottom:20px; overflow:auto; padding:5px;
+		}	
+		.content-intro p{
+		font-size:17px; margin-bottom:5px;
+		}
+		.content-intro h2{
+		text-align:center;margin-bottom:8px; 
+		}
 		.content-video{
-		 width:80%;	margin-left:20%; margin-bottom:30px; border:solid 1px red;
+		 width:100%; margin-bottom:20px; border:solid 1px;
 		}
 		.content-video video{
 			width:100%; height:100%;
 		}
 		
 		.content-students{
-			width:80%; background:#e6e6e6; margin-bottom:50px; overflow:hidden; margin-left:10%;  
+			width:100%; background:#e6e6e6; margin-bottom:10px; overflow:hidden; 
 		}
 		
-		.st1-3{
-			width:100%; float:left;  overflow:hidden;
+		.sdudent{
+			width:100%; 
+		}
+				
+		.wizytowka{
+			width:90%; float:left; margin-top:20px; margin-bottom:20px; margin-left:14px;
+		}
+		.wizytowka h4{
+		font-size:18px;	text-align:center;
+		}
+			.wizytowka a{
+			width:100%; 
+		}
+		.wizytowka img{
+			width:100%
 		}
 		
-		.st3-6{
-			width:100%; float:left; overflow:hidden;
-		}
-		
-		.wizytowka1{
-			width:33%; float:left; text-align:center; margin-bottom:20px; padding-top:10px;
-		}
-		.wizytowka1 h4{
-			
-		}
-			.wizytowka1 a{
-			width:100%;  height:60px; overflow:hidden;
-		}
-		.wizytowka1 img{
-			width:50%;
-		}
-		.wizytowka2 img{
-			width:50%;
-		}
-		
-		.wizytowka2{
-			width:33%; float:left; text-align:center; margin-bottom:10px;
-		}
+	
 		
 /************************************************ ASIDE ************************************************/		
 		
 		.aside1{
-			background: #e6e6e6; margin-bottom:20px; padding-bottom:30px; width:100%; overflow:hidden; padding-top:30px;
+			background: #e6e6e6; margin-bottom:5px; padding-bottom:5px; width:100%; overflow:hidden; padding-top:10px;
 		}
 			.photo1{
 			float:left;width:30%; margin-left:3%; margin-right:3%;
@@ -121,6 +118,15 @@
 			.photo3{
 			float:left;width:30%; 
 		}
+		.photo1 img{
+			width:100%;
+		}
+		.photo2 img{
+			width:100%;
+		}
+		.photo3 img{
+			width:100%;
+		}
 		
 /************************************************ FOOTER ************************************************/		
 
@@ -128,863 +134,176 @@
 			float:left;background: #e6e6e6; width:100%;text-align: center;
 		}
 		.copy{
-			font-size:13px; font-family:Serif;
+			font-size:8px; font-family:Serif;
 		}
 		
 /************************************************ STUDENTS ************************************************/		
 		
 		.content{
-			width:52%; margin-left:10%; float:left; margin-bottom:50px;
+			width:150px; margin-left:10%; float:left; margin-bottom:120px;
 		}
 		
 		.title_s h2{
-			text-align:center; margin-bottom:20px; 
+			text-align:center; margin-bottom:20px; font-size:24px;
 		}
 		
 		.about{
-			width:700px;  border:solid 1px red;
+			width:180px;  border:solid 1px red; height:auto;
 		}
 		.about h4{
-			padding:5px;
+			padding:5px; font-size:16px;
 		}
 		.img_s{
-			float:right; width:300px; margin-right:10%; 
+			float:right; width:100px; margin-right:10%; 
 		}
 		.img_s img{
-			width:90%;height:350px; 
+			width:90%;height:100%; 
 		}
 		
 /************************************************ KONTAKT ************************************************/		
 	.title h1{
-		width:100%; text-align: center; margin-bottom:5px; font-size:20px;
+		text-align: center; margin-bottom:10px; font-size:24px;
 	}
 	
-	.kontakt{
-		width:1100px;
-	}
 
 	.content-email{
-		 border:solid 1px red;padding:10px; width:50%; margin-left:10%; float:left; margin-bottom:50px;
+		 border:solid 1px red;padding:10px; width:300px; margin-left:10%; float:left; margin-bottom:30px;
+	}
+	.content-email form input{
+		width:100%
+	}
+	
+	
+	
+	
+	@media only screen and (max-width:320px){
+		
+		
+		.copy{
+			font-size:8px;
+		}
+		
+	}
+	
+	@media(min-width:321px) and (max-width:480px){
+		.head-name h1{
+			font-size:30px;
+		}
+		.wizytowka{
+			width:43%; margin-right:1%; margin-left:4%;
+		}
+	}
+	
+	@media(min-width:481px) and (max-width:700px){
+		.head-name h1{
+			font-size:40px;
+		}
+		.wizytowka{
+			width:43%; margin-right:2%; margin-left:4%;
+		}
+		.menuw ul{			
+			 column-count: 2;
+			 padding:1%;
+			 height: auto;
+		}
+		.menuw li{
+			padding-bottom:1%;
+		}
+		.content-intro p{
+			font-size:16px;
+		}		
+	}
+	
+	@media(min-width:701px) and (max-width:900px){
+		.head-name h1{
+			font-size:45px;
+		}
+		.content-video{
+			width:90%; margin-left:5%; margin-bottom:40px;
+		}
+		.wizytowka{
+			width:25%; margin-right:4%; margin-left:4%;
+		}
+		.menuw ul{					
+			 column-count: 2;
+			 padding:1%;
+			 height: auto;
+		}
+		.menuw li{
+			padding-bottom:1%;
+		}
+		.content-students{
+			margin-bottom:40px;
+		}
+		.content-intro p{
+			font-size:16px;
+		}
+	}
+	
+	@media(min-width:901px) and (max-width:1024px){
+		.head-name h1{
+			font-size:52px;
+		}
+		.head-logo img{
+			height:170px;
+		}
+		.menuw{
+		
+			 margin-bottom:5px;
+		}
+		.menuw li{
+			padding-bottom:1%;
+		}
+		.menu-main{
+			 width:200px; margin:0 auto;  float:left; margin: 5px 5px; margin-top:18px;
+		}
+		.content-video{
+			width:90%; margin-left:5%; margin-bottom:40px;
+		}
+		.wizytowka{
+			width:28%; margin-right:2%; margin-left:3%;
+		}	
+		.content-intro p{
+			font-size:16px;
+		}				
+				
+	}
+	
+	@media(min-width:1025px) and (max-width:1360px){
+		
+		.menu-main{
+			width:99%; 
+		}
+		.menu li{
+			float:left; width:13%;
+		}
+		
+			.menu{
+				 font-size:13px; width:100%; font-weight: normal;
+			}
+					.menu li a{
+						color:#373737; padding:2px; display:block; margin-left:1%;
+					}
+		.content-video{
+			width:90%; margin-left:5%; margin-bottom:40px;
+		}
+		.wizytowka{
+			width:28%; margin-right:2%; margin-left:3%;
+		}	
+		.content-intro p{
+			font-size:16px;
+		}
+		.head-name h1{
+			font-size:52px;
+		}
+		.head-logo img{
+			height:170px;
+		}		
+		
 	}
 		
 
 		
 		
-/************************************************ MOBILE_OPTIMISATION ************************************************/ 
-	@media(min-width:0px) and (max-width:320px){
-		
-		.head{
-			width:100%;  
-			}
-		.head-logo{
-			 margin-left:1%; margin-right:1%;
-		}
-		.head-logo img{
-			width:100%; height:100%;
-		}
-		.head-name h1{
-			text-align:center; font-size:10px;
-		}
-		.menuw{
-			width:100%;
-		}
-		.menu-main{
-			width:220px; margin:0 auto; overflow:hidden;
-		}
-		
-			.menu{
-				 font-size:3px; 
-			}
-					.menu li{
-					padding-right:5px;
-				}
-					.menu li a{
-						color:#373737; padding:1px; display:block;
-					}
-		
-		.aside1{
-			width:100%;overflow:hidden; float:left; padding-top:10px; padding-bottom:10px; text-align:center; margin-bottom:5px; 
-		}
-		.photo1 img {
-			width:100%; 
-		}
-		.photo2 img {
-			width:100%; 
-		}
-		.photo3 img {
-			width:100%;
-		}
-		.photo1{
-			width:30%; 
-		}
-		.photo2{
-			width:30%;
-		}
-		.photo3{
-			width:30%;
-		}
-		.copy {
-			font-size:3px;
-		}
-		.contentw{
-			margin-right:16%;  margin-bottom:-40px; 
-		}
-		.content-intro{
-			width:80%; margin-bottom:10px; margin-left:20%;
-		}
-		.articles{
-			font-size:6px; padding:3px; text-align:center;
-		}
-		.content-video{
-			width:80%; margin-bottom:10px; 
-		}
-		.content-video video{
-			width:100%; height:100%;
-		}
-		.content-students{
-			width:100%; 
-		}
-		.wizytowka1 h4{
-			font-size:5px;
-		}
-		.wizytowka2 h4{
-			font-size:5px;
-		}		
-		
-		.title_s h2{
-			text-align:center; margin-bottom:10px; font-size:10px; 
-		}
-		
-		.about{
-			width:100%;  border:solid 1px red; 
-		}
-		.about h4{
-			padding:3px; font-size:7px;
-		}
-		.img_s{
-			float:right; width:20%; 
-		}
-		.img_s img{
-			width:100%;height:100%; 
-		}
-		
-		.title h1{
-		text-align:center; margin-bottom:5px; font-size:10px; width:100%;
-		}
-		.kontakt{
-		width:100%; 
-		}
-		.content-email{
-		 border:solid 1px red; padding:10px; width:70%; margin-left:11%; float:left; margin-bottom:50px;
-		}
-		.content-email form {
-			width:100%;
-		}
-		.content-email  input {
-			width:100%;
-		}
-		
-	}	
-	
-	@media(min-width:321px) and (max-width:480px){
-		
-		.head{
-			width:100%;
-		}
-		.head-logo{
-			margin-left:1%; margin-right:1%;
-		}
-		.head-logo img{
-			width:100%; height:100%;
-		}
-		.head-name h1{
-			text-align:center; font-size:12px;
-		}
-		.menuw{
-			width:100%;
-		}
-		.menu-main{
-			width:270px; margin:0 auto; overflow:hidden;
-		}
-		
-			.menu{
-				 font-size:4px; 
-			}
-					.menu li{
-					padding-right:5px;
-				}
-					.menu li a{
-						color:#373737; padding:1px; display:block;
-					}
-		
-		
-		.aside1{
-			width:100%; float:left; padding-top:10px; padding-bottom:10px; margin-bottom:5px; 
-		}
-		.photo1 img {
-			width:100%;
-		}
-		.photo2 img {
-			width:100%;
-		}
-		.photo3 img {
-			width:100%;
-		}
-		.photo1{
-			width:30%;  
-		}
-		.photo2{
-			width:30%;
-		}
-		.photo3{
-			width:30%;
-		}
-		.copy {
-			font-size:5px;
-		}
-		.contentw{
-			margin-right:16%;  margin-bottom:-40px;
-		}
-		.content-intro{
-			width:100%; margin-bottom:10px;
-		}
-		.articles{
-			font-size:7px; padding:3px; text-align:center;
-		}
-		.content-video{
-			width:80%; margin-bottom:10px; 
-		}
-		.content-video video{
-			width:100%; height:100%;
-		}
-		.content-students{
-			width:100%; 
-		}
-		.wizytowka1 h4{
-			font-size:6px;
-		}
-		.wizytowka2 h4{
-			font-size:6px;
-		}
-		
-		.title_s h2{
-			text-align:center; margin-bottom:10px; font-size:10px; 
-		}
-		
-		.about{
-			width:100%;  border:solid 1px red; 
-		}
-		.about h4{
-			padding:3px; font-size:8px;
-		}
-		.img_s{
-			float:right; width:20%; 
-		}
-		.img_s img{
-			width:100%;height:100%; 
-		}
-		
-		.title h1{
-		text-align:center; margin-bottom:5px; font-size:10px; width:100%;
-		}
-		.kontakt{
-		width:100%; 
-		}
-		.content-email{
-		 border:solid 1px red; padding:10px; width:70%; margin-left:11%; float:left; margin-bottom:50px;
-		}
-		.content-email form {
-			width:100%;
-		}
-		.content-email  input {
-			width:90%;
-		}
-		
-	}	
-	
-	@media(min-width:481px) and (max-width:670px){
-	
-		.head{
-			width:100%;
-		}
-		.head-logo{
-			margin-left:1%; margin-right:1%;
-		}
-		.head-logo img{
-			width:100%; height:100%;
-		}
-		.head-name h1{
-			text-align:center; font-size:12px;
-		}
-		.menuw{
-			width:100%;
-		}
-		.menu-main{
-			width:530px; margin:0 auto; overflow:hidden;
-		}
-		
-			.menu{
-				 font-size:6px; 
-			}
-					.menu li{
-					padding-right:11px;
-				}
-					.menu li a{
-						color:#373737; padding:2px 4px; display:block;
-					}
-		
-		
-		.aside1{
-			width:100%; float:left; padding-top:10px; padding-bottom:10px; margin-bottom:5px; 
-		}
-		.photo1 img {
-			width:100%;
-		}
-		.photo2 img {
-			width:100%;
-		}
-		.photo3 img {
-			width:100%;
-		}
-		.photo1{
-			width:30%;  
-		}
-		.photo2{
-			width:30%;
-		}
-		.photo3{
-			width:30%;
-		}
-		.copy {
-			font-size:5px;
-		}
-		.contentw{
-			margin-right:16%;  margin-bottom:-40px;
-		}
-		.content-intro{
-			width:100%; margin-bottom:10px;
-		}
-		.articles{
-			font-size:10px; padding:3px; text-align:center;
-		}
-		.content-video{
-			width:80%; margin-bottom:10px; 
-		}
-		.content-video video{
-			width:100%; height:100%;
-		}
-		.content-students{
-			width:100%; 
-		}
-		.wizytowka1 h4{
-			font-size:6px;
-		}
-		.wizytowka2 h4{
-			font-size:6px;
-		}
-		
-		.title_s h2{
-			text-align:center; margin-bottom:10px; font-size:11px; 
-		}
-		
-		.about{
-			width:100%;  border:solid 1px red; 
-		}
-		.about h4{
-			padding:3px; font-size:8px;
-		}
-		.img_s{
-			float:right; width:20%; 
-		}
-		.img_s img{
-			width:100%;height:100%; 
-		}
-		
-		.title h1{
-		text-align:center; margin-bottom:5px; font-size:11px; width:100%;
-		}
-		.kontakt{
-		width:100%; 
-		}
-		.content-email{
-		 border:solid 1px red; padding:10px; width:300px; margin-left:11%; float:left; margin-bottom:50px;
-		}
-		.content-email form {
-			width:100%;
-		}
-		.content-email  input {
-			width:100%;
-		}
-		
-		
-	}	
-	@media(min-width:671px) and (max-width:768px){
-	
-		.head{
-			width:100%;
-		}
-		.head-logo{
-			margin-left:1%; margin-right:1%;
-		}
-		.head-logo img{
-			width:100%; height:100%;
-		}
-		.head-name h1{
-			text-align:center; font-size:14px;
-		}
-		.menuw{
-			width:100%;
-		}
-		.menu-main{
-			width:530px; margin:0 auto; overflow:hidden;
-		}		
-			.menu{
-				 font-size:7px; 
-			}
-					.menu li{
-					padding-right:11px;
-				}
-					.menu li a{
-						color:#373737; padding:2px 4px; display:block;
-					}
-		
-		
-		.aside1{
-			width:100%; float:left; padding-top:10px; padding-bottom:10px; margin-bottom:5px; 
-		}
-		.photo1 img {
-			width:100%;
-		}
-		.photo2 img {
-			width:100%;
-		}
-		.photo3 img {
-			width:100%;
-		}
-		.photo1{
-			width:30%;  
-		}
-		.photo2{
-			width:30%;
-		}
-		.photo3{
-			width:30%;
-		}
-		.copy {
-			font-size:6px;
-		}
-		.contentw{
-			margin-right:16%;  margin-bottom:-40px;
-		}
-		.content-intro{
-			width:100%; margin-bottom:10px;
-		}
-		.articles{
-			font-size:11px; padding:3px; text-align:center;
-		}
-		.content-video{
-			width:80%; margin-bottom:10px; 
-		}
-		.content-video video{
-			width:100%; height:100%;
-		}
-		.content-students{
-			width:100%; 
-		}
-		.wizytowka1 h4{
-			font-size:8px;
-		}
-		.wizytowka2 h4{
-			font-size:8px;
-		}
-		
-		.title_s h2{
-			text-align:center; margin-bottom:10px; font-size:12px; 
-		}
-		
-		.about{
-			width:100%;  border:solid 1px red; 
-		}
-		.about h4{
-			padding:4px; font-size:9px;
-		}
-		.img_s{
-			float:right; width:20%; 
-		}
-		.img_s img{
-			width:100%;height:100%; 
-		}
-		
-		.title h1{
-		text-align:center; margin-bottom:5px; font-size:12px; width:100%;
-		}
-		.kontakt{
-		width:100%; 
-		}
-		.content-email{
-		 border:solid 1px red; padding:10px; width:520px; margin-left:11%; float:left; margin-bottom:50px;
-		}
-		.content-email form {
-			width:100%;
-		}
-		.content-email  input {
-		 
-		}
-		
-		
-	}	
-	@media(min-width:769px) and (max-width:992px){
-	
-		.head{
-			width:100%;
-		}
-		.head-logo{
-			margin-left:1%; margin-right:1%;
-		}
-		.head-logo img{
-			width:100%; height:100%;
-		}
-		.head-name h1{
-			text-align:center; font-size:16px;
-		}
-		.menuw{
-			border-bottom:solid 1px black; border-top:solid 1px black; margin-bottom:10px;
-		}
-		.menu-main {
-			width:100%; 
-		}
-		.menu-main{
-			width:580px; margin:0 auto; overflow:hidden;
-		}		
-			.menu{
-				 font-size:8px; 
-			}
-					.menu li{
-					padding-right:11px;
-				}
-					.menu li a{
-						color:#373737; padding:2px 4px; display:block;
-					}
-		
-		
-		.aside1{
-			width:100%; float:left; padding-top:10px; padding-bottom:10px; margin-bottom:5px; 
-		}
-		.photo1 img {
-			width:100%;
-		}
-		.photo2 img {
-			width:100%;
-		}
-		.photo3 img {
-			width:100%;
-		}
-		.photo1{
-			width:30%;  
-		}
-		.photo2{
-			width:30%;
-		}
-		.photo3{
-			width:30%;
-		}
-		.copy {
-			font-size:7px;
-		}
-		.contentw{
-			margin-right:16%;  margin-bottom:-40px;
-		}
-		.content-intro{
-			width:100%; margin-bottom:10px;
-		}
-		.articles{
-			font-size:11px; padding:3px; text-align:center;
-		}
-		.content-video{
-			width:80%; margin-bottom:10px; 
-		}
-		.content-video video{
-			width:100%; height:100%;
-		}
-		.content-students{
-			width:100%; 
-		}
-		.wizytowka1 h4{
-			font-size:10px;
-		}
-		.wizytowka2 h4{
-			font-size:10px;
-		}
-		
-		.title_s h2{
-			text-align:center; margin-bottom:10px; font-size:13px; 
-		}
-		
-		.about{
-			width:100%;  border:solid 1px red; 
-		}
-		.about h4{
-			padding:4px; font-size:9px;
-		}
-		.img_s{
-			float:right; width:20%; 
-		}
-		.img_s img{
-			width:100%;height:100%; 
-		}
-		
-		.title h1{
-		text-align:center; margin-bottom:5px; font-size:13px; width:100%;
-		}
-		.kontakt{
-		width:100%; 
-		}
-		.content-email{
-		 border:solid 1px red; padding:10px; width:520px; margin-left:11%; float:left; margin-bottom:50px;
-		}
-		.content-email form {
-			width:100%;
-		}
-		.content-email  input {
-		 
-		}
-		
-		
-	}	
-	@media (min-width:993px) and (max-width:1280px){
-	
-		.head{
-			width:100%;
-		}
-		.head-logo{
-			margin-left:1%; margin-right:1%;
-		}
-		.head-logo img{
-			width:100%; height:100%;
-		}
-		.head-name h1{
-			text-align:center; font-size:20px;
-		}
-		.menuw{
-			width:100%;  border-bottom:solid 1px black; border-top:solid 1px black; margin-bottom:10px; 
-		}
-		.menu-main{
-			width:740px; margin:0 auto; overflow:hidden;
-		}
-			.menu{
-				  font-size:10px; 
-			}
-				.menu li{
-					float:left; 
-				}
-					.menu li a{
-						color:#373737; padding:6px 13px; display:block;
-					}
-						.menu a:hover{
-							margin-top:2px; 
-						}
-		
-		
-		.aside1{
-			width:100%; float:left; padding-top:10px; padding-bottom:10px; margin-bottom:5px; 
-		}
-		.photo1 img {
-			width:100%;
-		}
-		.photo2 img {
-			width:100%;
-		}
-		.photo3 img {
-			width:100%;
-		}
-		.photo1{
-			width:30%;  
-		}
-		.photo2{
-			width:30%;
-		}
-		.photo3{
-			width:30%;
-		}
-		.copy {
-			font-size:8px;
-		}
-		.contentw{
-			margin-right:16%;  margin-bottom:-40px;
-		}
-		.content-intro{
-			width:70%; margin-bottom:10px;
-		}
-		.articles{
-			font-size:12px; padding:5px;
-		}
-		.content-video{
-			width:70%; margin-bottom:10px; 
-		}
-		.content-video video{
-			width:100%; height:100%;
-		}
-		.content-students{
-			width:100%; 
-		}
-		.wizytowka1 h4{
-			font-size:12px;
-		}
-		.wizytowka2 h4{
-			font-size:12px;
-		}
-		
-		.title_s h2{
-			text-align:center; margin-bottom:10px; font-size:15px; 
-		}
-		
-		.about{
-			width:100%;  border:solid 1px red; 
-		}
-		.about h4{
-			padding:4px; font-size:10px;
-		}
-		.img_s{
-			float:right; width:20%; 
-		}
-		.img_s img{
-			width:100%;height:100%; 
-		}
-		
-		.title h1{
-		text-align:center; margin-bottom:5px; font-size:14px; width:100%;
-		}
-		.kontakt{
-		width:100%; 
-		}
-		.content-email{
-		 border:solid 1px red; padding:10px; width:520px; margin-left:20%; float:left; margin-bottom:50px;
-		}
-		.content-email form {
-			width:100%;
-		}
-		.content-email  input {
-		 
-		}
-		
-		
-	}	
-	@media (min-width:1281px){
-	
-		.head{
-			width:100%;
-		}
-		.head-logo{
-			margin-left:1%; margin-right:1%;
-		}
-		.head-logo img{
-			width:100%; height:100%;
-		}
-		.head-name h1{
-			 font-size:22px; text-align:center;
-		}
-	.menuw{
-			width:100%;  border-bottom:solid 1px black; border-top:solid 1px black; margin-bottom:10px; 
-		}
-		.menu-main{
-			width:850px; margin:0 auto; overflow:hidden
-		}
-			.menu{
-				  font-size:12px; width:100%; 
-			}
-				.menu li{
-					float:left; 
-				}
-					.menu li a{
-						color:#373737; padding:6px 13px; display:block;
-					}
-						.menu a:hover{
-							margin-top:2px; 
-						}
-		
-		
-		.aside1{
-			width:100%; float:left; padding-top:10px; padding-bottom:10px; margin-bottom:5px; 
-		}
-		.photo1 img {
-			width:100%;
-		}
-		.photo2 img {
-			width:100%;
-		}
-		.photo3 img {
-			width:100%;
-		}
-		.photo1{
-			width:30%;  
-		}
-		.photo2{
-			width:30%;
-		}
-		.photo3{
-			width:30%;
-		}
-		.copy {
-			font-size:9px;
-		}
-		.contentw{
-			margin-right:16%;  margin-bottom:0px;
-		}
-		.content-intro{
-			width:70%; margin-bottom:40px;
-		}
-		.articles{
-			font-size:13px; padding:5px;
-		}
-		.content-video{
-			width:70%; margin-bottom:40px; 
-		}
-		.content-video video{
-			width:100%; height:100%;
-		}
-		.content-students{
-			width:100%; 
-		}
-		.wizytowka1 h4{
-			font-size:14px;
-		}
-		.wizytowka2 h4{
-			font-size:14px;
-		}
-		
-		.title_s h2{
-			text-align:center; margin-bottom:10px; font-size:16px; 
-		}
-		
-		.about{
-			width:100%;  border:solid 1px red; 
-		}
-		.about h4{
-			padding:4px; font-size:10px;
-		}
-		.img_s{
-			float:right; width:20%; 
-		}
-		.img_s img{
-			width:100%;height:100%; 
-		}
-		
-		.title h1{
-		text-align:center; margin-bottom:5px; font-size:15px; width:100%;
-		}
-		.kontakt{
-		width:100%; 
-		}
-		.content-email{
-		 border:solid 1px red; padding:10px; width:520px; margin-left:20%; float:left; margin-bottom:50px;
-		}
-		.content-email form {
-			width:100%;
-		}
-		.content-email  input {
-		 
-		}
-		
-		
-	}	
+
 		
