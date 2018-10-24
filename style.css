@@ -20,24 +20,30 @@
 	body{
 	 
 	}
-	
+	.strona{
+		margin:0 auto; overflow:hidden;
+	}
 	/************************************************ HEADER ************************************************/
 	.headw{
-		width:100%; 
+		width:100%; overflow:hidden;
 	}
 		.head{
 			width:100%;  margin-bottom:10px;
 			}
 		.head-logo{
-			 margin-top:5px;  margin-left:5px; margin-right:5px;
+			 margin-top:5px;  margin-left:5px; margin-right:5px; 
 		}	
 		.head-logo img {
 			border: solid 1px black; width:100%; height:100px;
 		}
-		.head-name h1{
+		.head-name
+		{
+			
+		}
+	/*	.head-name h1{ 
 			position:absolute; right:0; margin-right:5%; font-size:25px; margin-top:15px;
 		}
-		
+	*/	
 
 /************************************************ MenuText ************************************************/
 		.menuw{
@@ -62,13 +68,61 @@
 						
 					
 /************************************************ CONTENT ************************************************/					
+					.background_photo1
+					{
+						width:100%;
+						height:320px;
+						background-image: url('img/students/th.jpg');
+						 background-position: center;
+						background-size:cover;
+					}
+					.background_photo2
+					{
+						width:100%;
+						height:320px;
+						background-image: url('img/students/oh.jpg');
+						 background-position: center;
+						background-size:cover;
+					}
+					.background_photo3
+					{
+						width:100%;
+						height:320px;
+						background-image: url('img/students/vs.jpg');
+						 background-position: center;
+						background-size:cover;
+					}
+					.background_photo4
+					{
+						width:100%;
+						height:320px;
+						background-image: url('img/students/vm.jpg');
+						 background-position: center;
+						background-size:cover;
+					}
+					.background_photo5
+					{
+						width:100%;
+						height:320px;
+						background-image: url('img/students/mv.jpg');
+						 background-position: center;
+						background-size:cover;
+					}
+					.background_photo6
+					{
+						width:100%;
+						height:320px;
+						background-image: url('img/students/dy.jpg');
+						 background-position: center;
+						background-size:cover;
+					}
 					
 		.contentw{
-			 margin-right:5px; margin-left:5px; margin-top: -3px;
+			 margin-right:5px; margin-left:5px; margin-top: -3px; 
 		}
 		
 		.content-intro{
-			 background:#e6e6e6; height:auto; margin-bottom:20px; overflow:auto; padding:5px; 
+			 background:#e6e6e6; height:auto; margin-bottom:20px; overflow:auto; padding:5px;  margin-bottom:60px;overflow-y:hidden;
 		}	
 		.content-intro p{
 		font-size:17px; margin-bottom:5px;padding-bottom: 19px; 
@@ -77,14 +131,14 @@
 		text-align:center;margin-bottom:8px;  
 		}
 		.content-video{
-		 width:100%; margin-bottom:20px; border:solid 1px;
+		 width:100%; margin-bottom:20px; border:solid 2px #808080; padding:10px; 
 		}
 		.content-video video{
 			width:100%; height:100%;
 		}
 		
 		.content-students{
-			width:100%; background:#e6e6e6; margin-bottom:10px; overflow:hidden; 
+			width:100%; background:#e6e6e6; margin-bottom:0px; overflow:hidden; 
 		}
 		
 		.sdudent{
@@ -92,19 +146,21 @@
 		}
 				
 		.wizytowka{
-		 margin-left:7px;width:95%; float:left; margin-top:15px; margin-bottom:20px; 
+		 margin-left:7px;width:95%; float:left; margin-top:15px; 
+		 border:2px solid transparent;  margin-bottom: 0px;
 		}
 		
 			
 
 		.wizytowka h4{
-		font-size:18px;	text-align:center; margin-bottom: 15px;
+		font-size:18px;	text-align:center; margin-bottom: 15px; height: auto;
 		}
-			.wizytowka a{
-			width:100%; 
+		
+		.wizytowka:hover{
+			border:2px solid #808080; 
 		}
 		.wizytowka img{
-			width:100%
+			width: 97%; height:300px; padding: 4px; margin: 0 auto; padding-right: 2px;
 		}
 		
 	
@@ -112,7 +168,7 @@
 /************************************************ ASIDE ************************************************/		
 		
 		.aside1{
-			 margin: 5px 5px; padding-bottom:5px;  overflow:hidden; padding-top:10px;
+			 margin: 5px 5px; padding-bottom:5px;   padding-top:10px; 
 		}
 			.photo1{
 			width:90%;padding: 10px; float: left;
@@ -145,7 +201,7 @@
 /************************************************ STUDENTS ************************************************/		
 		
 		.content{
-			width:150px; margin-left:10%; float:left; margin-bottom:120px;
+			width:100%; margin-left:10%; float:left; margin-bottom:120px;
 		}
 		
 		.title_s h2{
@@ -153,42 +209,93 @@
 		}
 		
 		.about{
-			width:180px;  border:solid 1px red; height:auto;
+			 width: 100%; border:solid 1px #808080; height:auto;
 		}
 		.about h4{
-			padding:5px; font-size:16px;
+			padding:10px; font-size:16px;
 		}
 		.img_s{
-			float:right; width:100px; margin-right:10%; 
-		}
+			  margin: 0 auto; width: 30%; 
+			  }
 		.img_s img{
-			width:90%;height:100%; 
+			width:100%; 
 		}
+		.content123{
+			width:100%; margin-bottom:20px;height:auto; overflow:hidden; 
+		}
+		
+
 		
 /************************************************ KONTAKT ************************************************/		
 	.title h1{
-		text-align: center; margin-bottom:10px; font-size:24px;
+		text-align: center; margin-bottom:10px; font-size:24px; margin-bottom:20px;
 	}
 	
 
 	.content-email{
-		 border:solid 1px red;padding:10px; width:300px; margin-left:10%; float:left; margin-bottom:30px;
+		 border:solid 2px gray;padding:10px; width:400px;float:none; margin: 0 auto; margin-bottom:130px;
 	}
-	.content-email form input{
-		width:100%
+	.content-email form {
+		width:100%; 
+	}
+	input[name="name"]{
+		height: 15px; margin-bottom: 5px;
+	}
+	input[name="mail"]{
+		margin-bottom: 5px;
+	}
+	input[name="comment"]{
+		height: 40px; width: 398px; 
+	}
+	input[type="submit"]{	
+		background-color: #fff; border: 2px solid #808080; margin-right: 10px; padding: 5px; font-size: 15px;
+	}
+	input[type="reset"]{	
+		background-color: #fff; border: 2px solid #808080; padding: 5px; font-size: 15px;
+	}
+	input[type="reset"]:hover{
+		background-color: #e6e6e6;
+	}
+	input[type="submit"]:hover{
+		background-color: #e6e6e6;
 	}
 	
+	/*==================================  MEDIA  =============================*/
 	
 	
-	
-	@media only screen and (max-width:320px){
-		
-		
+	@media(min-width:0px) and (max-width:320px){
+		.wizytowka img{
+			height: 300px;
+		}
 		.copy{
 			font-size:8px;
+		}	
+		.content{
+			width:80%;  height: auto; margin: 0 auto; margin-left: 10%;
+		}	
+		.img_s{
+			  margin: 0 auto; width: 70%; 
+			  }
+		.img_s img{
+			width:auto; margin-bottom: 10px;
 		}
 		
+		.about h4{
+			font-size:17px;
+		}
+		.content-email {
+		width:90%; 
 	}
+	input[name="mail"]{
+		margin-bottom: 5px;
+	}
+	input[name="comment"]{
+		height: 40px; width: 260px; 
+	}
+
+}
+		
+				
 		@media(min-width:321px) and (max-width:480px){
 		.head-name h1{
 			font-size:30px;
@@ -196,9 +303,34 @@
 		.wizytowka{
 			width:42%; margin-right:1%; margin-left:5%;
 		}
+		.wizytowka img{
+			 height:150px;
+		}
 		.wizytowka h4{
 		font-size:16px;
 		}
+		.content{
+			width:80%;  height: auto; margin: 0 auto; margin-left: 10%;
+		}	
+		.img_s{
+			  margin: 0 auto; width: 70%; 
+			  }
+		.img_s img{
+			width:100%; margin-bottom: 10px;
+		}
+		
+		.about h4{
+			font-size:17px;
+		}
+	.content-email {
+		width:90%; 
+	}
+	input[name="mail"]{
+		margin-bottom: 5px;
+	}
+	input[name="comment"]{
+		height: 40px; width: 100%; 
+	}
 	}
 	
 	@media(min-width:481px) and (max-width:768px){
@@ -206,7 +338,7 @@
 			font-size:35px;
 		}
 		.head-logo img{
-			height: 140px;
+			height: 140px; 
 		}
 		.wizytowka{
 			width:43%; margin-right:2%; margin-left:4%; 
@@ -222,17 +354,40 @@
 		.content-intro p{
 			font-size:16px;
 		}
+		.aside1{
+			margin:0 auto; 
+		}
 			.photo1{
-			width:440px;padding: 10px; margin:0 auto; float: none;
+			width:420px;padding: 10px; margin:0 auto; float: none;
 		}
 			.photo2{
-			width:440px;padding: 10px;  margin: 0 auto; float: none;
+			width:420px;padding: 10px;  margin: 0 auto; float: none;
 		}
 			.photo3{
-			width:440px; padding: 10px;margin: 0 auto; float: none;
+			width:420px; padding: 10px;margin: 0 auto; float: none;
 		}
 		.copy{
 			font-size:10px;
+		}
+
+		.title_s h2{
+			font-size: 28px;
+		}
+		.content{
+			width:80%;  height: auto; margin: 0 auto; margin-left: 10%; 
+		}	
+		.img_s{
+			  margin: 0 auto; width: 60%;
+			  }
+		.img_s img{
+			width:100%; margin-bottom: 10px;
+		}
+		.about{
+			width: 100%;
+		}
+		
+		.about h4{
+			font-size:17px;
 		}
 	}
 	
@@ -248,7 +403,7 @@
 			width:90%; margin-left:5%; margin-bottom:40px;
 		}
 		.wizytowka{
-			width:25%; margin-right:4%; margin-left:4%;
+			width:25%; margin-right:4%; margin-left: 3%;
 		}
 		.menuw ul{					
 			 column-count: 2;
@@ -270,6 +425,25 @@
 		}
 			.photo3{
 			width:31%; float: left;
+		}
+		.title_s h2{
+			font-size: 30px;
+		}
+		.content{
+			width:68%; height: auto; float: left; margin: 0px;
+		}	
+		.img_s{
+			  float: left; width: 200px;margin-left: 20px; margin-right: 20px;
+			  }
+		.img_s img{
+			width:100%; margin-bottom: 10px;
+		}
+		.about{
+			width: 100%; margin-top: 20px;
+		}
+		
+		.about h4{
+			font-size:17px;
 		}
 	}
 	
@@ -298,7 +472,7 @@
 			max-width:99%;
 		}
 		.wizytowka{
-			width:25%; margin-right:4%; margin-left:4%;
+			width:25%; margin-right:2%; margin-left:5%;
 		}	
 		.content-intro{
 			 height:277px; 
@@ -318,10 +492,36 @@
 		.footer-copy p{
 			font-size: 10px;
 		}	
+		.content{
+			width:65%; height: auto; float:left; margin-left:2%;
+		}	
+		.img_s{
+			  float:left; width: 30%; margin-left:0px;
+			  }
+		.img_s img{
+			width:100%; margin-bottom: 10px;
+		}
+		.about{
+			width: 100%; margin-top: 20px;
+		}
+		
+		.about h4{
+			font-size:17px;
+		}
+		.content123{
+			width:76%;  padding-left:2%;
+		}
+		
 				
 	}
 	
-	@media(min-width:1201px) and (max-width:1500px){
+	@media(min-width:1201px){
+		.strona{
+			max-width:1400px;
+			
+		}
+		
+		
 		.menu-main{
 			width: 1050px; padding-bottom: 15px;
 		}
@@ -355,7 +555,7 @@
 			height:220px;
 		}
 		.content-students{
-			width:1080px; margin:0 auto; height: 920px;
+			width:1080px; margin:0 auto; height:760px;
 		}
 		.content-video{
 			width: 70%; margin:0 auto; margin-bottom: 20px;
@@ -364,90 +564,53 @@
 			width:1080px; margin:0 auto; height: auto; margin-bottom: 20px;
 		}
 		.wizytowka {
-			margin-bottom: 40px;
+			margin-bottom: 0px;
 		}	
 		.wizytowka img{
 			margin-bottom: 5px;
-			}	
-
-				.photo1{
-			width:30%;  float: left; margin-left:0px;
-		}
-			.photo2{
-			width:30%;  float: left;
-		}
-			.photo3{
-			width:31%; float: left;
-		}	
-			.footer-copy p{
-			font-size: 12px;
-		}	
-		
-	}
-
-	@media(min-width:1501px) and only screen{
-		.menu-main{
-			width: 1050px; padding-bottom: 15px;
-		}
-		.menuw{
-			border-top: none;
-		}
-		
-		.menu li{
-			float:left; width:12%; 
-		}
-		
-			.menu{
-				 font-size:13px; ; font-weight: normal;
 			}
-					.menu li a{
-						color:#373737; padding:5px 2px; display:block; margin-left: 2px;
-					}
-		.content-video{
-			width:90%; margin-left:5%; margin-bottom:40px;
-		}
-		.wizytowka{
-			max-width:300px; max-height:400px; margin-right:2%; margin-left:3%;
-		}	
-		.content-intro p{
-			font-size:16px;
-		}
-		.head-name h1{
-			font-size:52px;
-		}
-		.head-logo img{
-			height:220px;
-		}
-		.content-students{
-			width:1080px; margin:0 auto; height: 920px;
-		}
-		.content-video{
-			width: 70%; margin:0 auto; margin-bottom: 20px;
-		}
-		.content-intro{
-			width:1080px; margin:0 auto; height: auto; margin-bottom: 20px;
-		}
-		.wizytowka {
-			margin-bottom: 40px;
-		}	
-		.wizytowka img{
-			margin-bottom: 5px;
-			}	
 
+		.aside1{
+			margin:0 auto; float:none;
+		}
 				.photo1{
-			width:30%;  float: left; margin-left:0px;
+			width:30%;  float: left; margin-left:2%;
 		}
 			.photo2{
-			width:30%;  float: left;
+			width:30%;  float: left; 
 		}
 			.photo3{
-			width:31%; float: left;
+			width:31%; float: left; 
 		}	
 			.footer-copy p{
 			font-size: 12px;
+		}
+		.title_s h2{
+			font-size: 34px;
 		}	
+		.content{
+			width:65%; height: auto; float:left; margin: 0px; 
+		}	
+		.img_s{
+			  float:left; width: 350px;margin-left:20px; margin-right: 20px; 
+			  }
+		.img_s img{
+			width:100%; margin-bottom: 10px;
+		}
+		.about{
+			width: 100%; margin-top: 20px;
+		}
+		
+		.about h4{
+			font-size:17px;
+		}
+		.content123{
+			margin:0 auto; float:none; padding-left:1%;
+		}
 		
 	}
+
+	
 		
 
 		
